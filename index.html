@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <link style="background-image: transparent;" class="icon" rel="shortcut icon"
+        href="../../../../../../src/imagens/imagem3.ico.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../../../../../../src/css/reset.css">
+    <link rel="stylesheet" href="../../../../../../src/css/estilo.css">
+    <link rel="stylesheet" href="../../../../../../src/css/responsivo.css">
+
+    <title>Trailer The Chosen - 5ª Temporada</title>
+</head>
+<body>
+    <div class="fundo-video">
+        <video class="video" autoplay loop muted>
+            <source src="../../../../../../src/video/video4.mp4" type="video/mp4">
+        </video>
+    </div>
+    <header class="cabecalho">
+        <a href="http://127.0.0.1:5500/index.html">
+            <img class="logo" src="../../../../../../src/imagens/imagem3.ico.ico" alt="Logo do The Chosen">
+        </a>
+        <nav>
+            <ul class="menu">
+
+                <li class="home"><a href="http://127.0.0.1:5500/index.html#" target="_blank">Home</a></li>
+                <li class="detalhes"><a href="https://osescolhidos.tv/temporada-5/" target="_blank">Detalhes</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+    <main class="container">
+
+
+        <div class="modal">
+            <div class="conteudomodal">
+                <span class="fecharmodal">X</span>
+                <iframe id="video2" width="560" height="315" src=""
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share rel=0, modestbranding=1, showinfo=0"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="informacoes">
+
+            <img class="imagem-titulo" src="../../../../../../src/imagens/logo.png" alt="Título do The Chosen">
+
+            <p class="descricao">A mesa está posta. O povo de Israel acolhe Jesus como rei, enquanto seus discípulos
+                aguardam sua coroação. Com seu poder ameaçado, os líderes religiosos e políticos do país farão de tudo para garantir que esta refeição da Páscoa seja a 
+                <span class="escrevendo">última de Jesus.
+                </span></p>
+
+            <button class="botao-trailer">Veja o Trailer</button>
+
+        </div>
+        <img class="personagem" src="../../../../../../src/imagens/imagem1.png" alt="Nicodemos em The Chosen">
+
+    </main>
+
+</body>
+<script>
+    window.onload = function() {
+        // Inicia a animação depois que todos os recursos da página estiverem carregados
+        const escrevendo = document.querySelector('.escrevendo');
+        escrevendo.style.animationPlayState = 'running'; // Inicia a animação
+    }
+</script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Inicia a animação depois que o DOM estiver carregado
+        const escrevendo = document.
+        querySelector('.escrevendo');
+        escrevendo.style.animationPlayState = 'running'; // Inicia a animação
+    });
+</script>
+
+<script src="../../../../../../src/js/index.js"></script>
+
+</html>
